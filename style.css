@@ -1,15 +1,99 @@
 body {
-    background-color: rgb(223, 173, 230);
+    background-color: #fff6e5;
 }
 
 h1 {
-    color: rgb(207, 92, 92);
+    color: #eb6c5e;
     text-align: center;
     font-family: helvetica;
+    font-weight: normal;
+    font-size: 35px;
+    text-decoration: none;
 }
 
 p {
     font-family: helvetica;
     font-size: 20px;
     text-align: center;
+}
+
+.box {
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    font-family: helvetica;
+    font-size: 15px;
+    text-align: center;
+    margin: 25px;
+}
+
+
+.box a { 
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.content_holder {
+    display:inline-block;
+}
+
+.box a h2 {
+    /* font-weight: regular; */
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+.box a:link {
+    text-decoration: none;
+}
+
+#photo {
+    background-color: #ffe1e1; 
+    color: #27a6af
+}
+
+#art {
+    background-color: #def0ee;
+    color: #b573eb
+}
+
+#programming {
+    background-color: #e9f3df;
+    color: #eb6c5e
+    
+}
+
+#header {
+    margin-top:100px;
+}
+
+
+.main_content_grid {
+    margin: 0 auto;
+    margin-top:50px;
+    text-align:center;
+    max-width:1058px;
+}
+
+a:link {
+    color: rgb(255, 139, 139);
+}
+
+a:visited {
+    color: rgb(255, 139, 139);
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: green;
 }
